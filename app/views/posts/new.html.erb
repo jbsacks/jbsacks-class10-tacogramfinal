@@ -9,7 +9,7 @@
 
     <div class="mb-3">
       <%= form.label "image", :class => "form-label" %>
-      <%= form.text_field "image", :class => "form-control" %>
+      <%= form.file_field "uploaded_image", :accept => "image/jpeg, image/jpg, image/png, image/gif", :class => "form-control" %>
     </div>
 
     <%= form.submit "Create Post", :class => "btn btn-primary" %>
